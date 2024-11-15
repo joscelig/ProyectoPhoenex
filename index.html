@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHOENIX MUSIC</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header>
+            <nav class="nav">
+                <div>
+                    <h1>PHOENIX MUSIC</h1>
+                </div>
+                <div>
+                    <ul class="nav-menu">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><button id="categorias">CATEGORIAS</button>
+                            <ul class="nav-menu-list">
+                                <li><button id="nav-buttonAcusticas">GUITARRAS ACUSTICAS</button></li>
+                                <li><button id="nav-buttonElectricas">GUITARRAS ELECTRICAS</button></li>
+                                <li><button id="nav-buttonAccesorios">ACCESORIOS</button></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Carrito<span class="nav-menu-sc-span">0</span></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+
+            <div class="products">
+                <!-- Products rendering -->
+            </div>
+            <div class="shoppingCard">
+                <div class="products-shoppingCard">
+                    <button id="products-shoppingCard-emptyCard">Vaciar Carrito</button>
+                    <p class="products-shoppingCard-text">total: CLP <span class="products-shoppingCard-total"></span></p>
+                </div>
+                <!-- Products in Card rendering -->
+                <div class="shoppingCard-products"></div>
+                <button class="shoppingCard-Pay">Realizar Compra</button>
+            </div>
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/main.js" type="module"></script>
+</body>
+
+</html>
