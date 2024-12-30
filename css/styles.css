@@ -154,6 +154,35 @@ a{
     background-color: #80b6bd;
 }
 
+/*Formulario*/
+
+.cuerpo-formulario{ 
+    justify-content: center;
+}
+.controls{
+    background-color: #407076;
+    color: white;
+    border: none;
+    padding: .3rem .7rem;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 2rem;
+    display: flex;
+    margin-left: 40rem;
+}
+
+.botons{
+    margin-top: 2rem;
+    margin-left: 44rem;
+}
+
+.body{
+    background: url(../assets/img/Fondo.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+
 /* Main Shopping Card Div */
 .shoppingCard{
     margin: 0.75rem 1rem;
